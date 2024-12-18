@@ -13,13 +13,13 @@
         android:theme="@style/Theme.NewCalculator"
         tools:targetApi="31">
         <activity
+            android:name=".multiplication"
+            android:exported="false" />
+        <activity
             android:name=".subtraction"
             android:exported="false" />
         <activity
             android:name=".Division"
-            android:exported="false" />
-        <activity
-            android:name=".multiplication"
             android:exported="false" />
         <activity
             android:name=".Subtraction"
